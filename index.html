@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Loren Games</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link rel="icon" href="img/loren.jpg" type="image/x-icon">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+     
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-dark nav navbar-expand-lg py-lg-0 ">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary mb-0 display-5">Loren<span class="text-white">Games</span></h1>
+                    </a>
+                    <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-dark"></span>
+                    </button>
+                    <div class="collapse navbar-collapse me-n3" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+                            <a href="#about" class="nav-item nav-link">Hakkımızda</a>
+                            <a href="#store" class="nav-item nav-link">Oyunlarımız</a>
+                            <a href="#team" class="nav-item nav-link">Ekibimiz</a>
+                            <a href="#contact" class="nav-item nav-link">İletişim</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid carousel px-0 mb-5 pb-5">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/elementix_body.jpeg" class="img-fluid w-100" alt="First slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h1 class="text-white display-1 mb-4 animated slideInDown" >Elementix Artık Steam'de Wishlist'e Eklenebilir!</h1>
+                                <a href="https://store.steampowered.com/app/3237470/Elementix/" target="_blank" class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown" style="background-color: transparent; color: whitesmoke;">Hemen Ekle</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/upward.jpg" class="img-fluid w-100" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h1 class="text-white display-1 mb-4 animated slideInDown">Upward Artık Steam'de! Hemen Oynamaya Başlayın</h1>
+                                <a href="https://store.steampowered.com/app/2745860/Upward/" target="_blank" class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown" style="background-color: transparent; color: whitesmoke;">Hemen Oyna</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev btn btn-primary border border-2 border-start-0 border-primary" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next btn btn-primary border border-2 border-end-0 border-primary" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+
+        <!-- About Start -->
+         <section id="about">
+            <div class="container-fluid py-5">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="about-img">
+                                <div class="rotate-left bg-dark"></div>
+                                <div class="rotate-right bg-dark"></div>
+                                <img src="img/loren.jpg" class="img-fluid h-100" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="about-item overflow-hidden">
+                                <h5 class="mb-5 px-3 py-3 text-dark rounded-pill d-inline-block border border-2 border-primary" style="font-size:40px;">Hakkımızda</h5>
+                                <p class="fs-5" style="text-align: justify;">Loren Games, 2023 yılında kazandığı Teknofest Turizm Teknolojileri ve Oyun Kategorisi En İyi Girişim Ödülü ile sektördeki yerini sağlamlaştırmış, yenilikçi bir oyun geliştirme stüdyosudur. Ekibimiz, oyun tutkusunu teknolojik yeniliklerle birleştirerek oyunculara unutulmaz deneyimler sunmayı hedeflemektedir.</p>
+                                <p class="fs-5" style="text-align: justify;">Her biri farklı yetenek ve uzmanlığa sahip bir ekip olarak, çeşitli platformlar için eğlenceli ve yaratıcı oyunlar geliştiriyoruz. İleri teknoloji ve yaratıcı oyun mekaniği kullanarak oyuncularımızın ilgisini çekecek projelere imza atıyor, sürekli olarak kendimizi geliştirmeyi ve oyun dünyasına yeni soluklar getirmeyi hedefliyoruz.</p>
+                                <p class="fs-5" style="text-align: justify;">Loren Games olarak misyonumuz, global oyun sektöründe kendimizi kanıtlamak ve oyunculara en iyi deneyimi sunmaktır. Geliştirdiğimiz her oyunla birlikte, oyuncularımıza ilham vermek ve onları eşsiz dünyalara davet etmek için çalışıyoruz.
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        <!-- About End -->
+
+
+        <!-- Store Start -->
+        <section id="store">
+            <div class="container-fluid py-5">
+              <div class="container py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                  <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary" style="font-size:40px;">Oyunlarımız</h5>
+                </div>
+                <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay=".5s">
+                  <div class="blog-item">
+                    <img src="img/elementix.jpg" class="img-fluid w-100 rounded-top" alt="">
+                    <div class="rounded-bottom bg-light">
+                      <div class="d-flex justify-content-between p-4 pb-2">
+                        <span class="text-dark"><i class="fas fa-calendar-alt me-2"></i>1 Mart, 2025</span>
+                      </div>
+                      <div class="px-4 pb-0">
+                        <h4>Elementix</h4>
+                        <p>5-16 oyuncunun güven ve ihanet içinde mücadele ettiği, her karakterin kendine özgü yeteneklere sahip olduğu sosyal çıkarım oyunudur.</p>
+                      </div>
+                      <div class="p-4 py-2 d-flex justify-content-between bg-primary-card rounded-bottom blog-btn">
+                        <a href="https://store.steampowered.com/app/3237470/Elementix/" type="button" class="btn btn-primary ">Yakında..</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-item">
+                    <img src="img/upward.jpg" class="img-fluid w-100 rounded-top" alt="">
+                    <div class="rounded-bottom bg-light">
+                      <div class="d-flex justify-content-between p-4 pb-2">
+                        <span class="text-dark"><i class="fas fa-calendar-alt me-2"></i>28 Şubat, 2024</span>
+                      </div>
+                      <div class="px-4 pb-0">
+                        <h4>Upward</h4>
+                        <p>Upward, bir uçak kazası sonrası düştüğümüz adada engelleri aşarak yukarıya doğru ilerlediğimiz, 10 zorlu seviyeden oluşan bir platform oyunudur.</p>
+                      </div>
+                      <div class="p-4 py-2 d-flex justify-content-between bg-primary-card rounded-bottom blog-btn">
+                        <a href="https://store.steampowered.com/app/2745860/Upward/" type="button" class="btn btn-primary" >Detaylı Bilgi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-item">
+                    <img src="img/elementix.jpg" class="img-fluid w-100 rounded-top" alt="">
+                    <div class="rounded-bottom bg-light">
+                      <div class="d-flex justify-content-between p-4 pb-2">
+                        <span class="text-dark"><i class="fas fa-calendar-alt me-2"></i>1 Mart, 2025</span>
+                      </div>
+                      <div class="px-4 pb-0">
+                        <h4>Elementix</h4>
+                        <p>5-16 oyuncunun güven ve ihanet içinde mücadele ettiği, her karakterin kendine özgü yeteneklere sahip olduğu bir sosyal çıkarım oyunudur. </p>
+                      </div>
+                      <div class="p-4 py-2 d-flex justify-content-between bg-primary-card rounded-bottom blog-btn">
+                        <a href="https://store.steampowered.com/app/3237470/Elementix/" type="button" class="btn btn-primary">Yakında..</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- Store End -->
+
+
+        <!-- Team Start -->
+         <section id="team">
+            <div class="container-fluid py-5">
+                <div class="container py-5">
+                    <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                        <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary" style="font-size: 40px;">Ekibimiz</h5>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="rounded team-item">
+                                <img src="img/avatar_duygu.webp" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                                <div class="team-content bg-primary text-dark text-center py-3">
+                                    <span class="fs-4 fw-bold">Duygu Aras</span>
+                                    <p class="text-muted mb-0">Game Developer</p>
+                                </div>
+                                <div class="team-icon d-flex flex-column ">
+                                    <a href="https://www.linkedin.com/in/duygu-aras-6208b81b4/" target="_blank" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="rounded team-item">
+                                <img src="img/avatar_yusuf.webp" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                                <div class="team-content bg-primary text-dark text-center py-3">
+                                    <span class="fs-4 fw-bold">Yusuf Yavuz</span>
+                                    <p class="text-muted mb-0">Game Developer</p>
+                                </div>
+                                <div class="team-icon d-flex flex-column ">
+                                    <a href="https://www.linkedin.com/in/yusufyavuztr/" target="_blank" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".7s">
+                            <div class="rounded team-item">
+                                <img src="img/avatar_ayse.webp" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                                <div class="team-content bg-primary text-dark text-center py-3">
+                                    <span class="fs-4 fw-bold">Ayşe Gül Tüysüz</span>
+                                    <p class="text-muted mb-0">Level Designer</p>
+                                </div>
+                                <div class="team-icon d-flex flex-column ">
+                                    <a href="https://www.linkedin.com/in/aysegultuysuz/" target="_blank" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".9s">
+                            <div class="rounded team-item">
+                                <img src="img/avatar_berfin.webp" class="img-fluid w-100 rounded-top border border-bottom-0" alt="">
+                                <div class="team-content bg-primary text-dark text-center py-3">
+                                    <span class="fs-4 fw-bold">Berfin Yağmur Kanat</span>
+                                    <p class="text-muted mb-0">3D Artist</p>
+                                </div>
+                                <div class="team-icon d-flex flex-column ">
+                                    <a href="https://www.linkedin.com/in/byagmurkanat/" target="_blank" class="btn btn-primary border-0"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        <!-- Team End -->
+
+<section id="contact">
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary" style="font-size: 40px;" >İletişim</h5>
+            </div>
+            <div class="row g-5 mb-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="h-100">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.6459969510493!2d29.315891399999998!3d40.923507199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cada22a9601b2f%3A0xf83f0868c348b10e!2sTeknopark%20%C4%B0stanbul%20A.%C5%9E.!5e0!3m2!1str!2str!4v1727083725353!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="rounded contact-form">
+                        <div class="mb-4">
+                            <input type="text" class="form-control p-3" placeholder="Adınız Soyadınız">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control p-3" placeholder="E-Mail Adresiniz">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control p-3" placeholder="Konu">
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="w-100 form-control p-3" rows="6" cols="10" placeholder="Mesaj"></textarea>
+                        </div>
+                        <button class="btn btn-primary py-3 px-4 rounded-pill" type="button">Gönder</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row g-4 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-xxl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="d-flex bg-light p-3 rounded contact-btn-link">
+                        <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
+                            <i class="fa fa-share text-dark"></i>
+                        </div>
+                        <div class="ms-3 contact-link">
+                            <h4 class="text-dark">Takip Et</h4>
+                            <div class="d-flex justify-content-center">
+                                <a class="px-2" href="https://x.com/LorenGamesOff"><i class="fab fa-twitter text-dark"></i></a>
+                                <a class="px-2" href="https://www.instagram.com/lorenngames/"><i class="fab fa-instagram text-dark"></i></a>
+                                <a class="px-2" href="https://www.linkedin.com/company/lorengames/"><i class="fab fa-linkedin-in text-dark"></i></a>
+                                <a class="px-2" href="#"><i class="fab fa-youtube text-dark"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="d-flex bg-light p-3 rounded contact-btn-link">
+                        <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
+                            <i class="fas fa-map-marker-alt text-dark"></i>
+                        </div>
+                        <div class="ms-3 contact-link">
+                            <h4 class="text-dark">Adres</h4>
+                            <a href="#">
+                                <h5 class="text-dark d-inline fs-6">İstanbul Teknopark, Türkiye</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-xxl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="d-flex bg-light p-3 rounded contact-btn-link">
+                        <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle p-3 ms-3" style="width: 64px; height: 64px;">
+                            <i class="fa fa-envelope text-dark"></i>
+                        </div>
+                        <div class="ms-3 contact-link">
+                            <h4 class="text-dark">Email</h4>
+                            <a class="h5 text-dark fs-6" href="#">lorengames@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay=".3s">
+            <div class="container py-5">
+                <div class="row g-4 footer-inner">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-white fw-bold mb-4">Loren Games Hakkında</h4>
+                            <p>Loren Games, yenilikçi projeler üreten ve global oyun dünyasında iz bırakmayı hedefleyen, tutku ve uzmanlıkla oyun geliştiren bir stüdyodur.</p>
+                            <p class="mb-0"><a class="" href="#">Loren Games </a> &copy; Tüm Hakları Saklıdır</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-white fw-bold mb-4">Bağlantılar</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="btn btn-link ps-0" href="#about"><i class="fa fa-check me-2"></i>Hakkımızda</a>
+                                <a class="btn btn-link ps-0" href="#store"><i class="fa fa-check me-2"></i>Oyunlarımız</a>
+                                <a class="btn btn-link ps-0" href="#team"><i class="fa fa-check me-2"></i>Ekibimiz</a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-white fw-bold mb-4">İletişim</h4>
+                            <p class="w-100 text-start ps-0 pb-3 border-bottom rounded-0"><i class="fa fa-map-marker-alt me-3"></i>İstanbul Teknopark, Türkiye</p>
+                            <p class="w-100 text-start ps-0 py-3 border-bottom rounded-0" style="text-transform: lowercase;"><i class="fa fa-envelope me-3" ></i>lorengamesinfo@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Footer End -->
+
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-primary-card py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                        <a href="#" class="text-primary mb-0 display-6">Loren<span class="text-white">Games</span></a>
+                    </div>
+                    <div class="col-md-4 copyright-btn text-center text-md-start mb-3 mb-md-0 flex-shrink-0">
+                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href="https://x.com/LorenGamesOff" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href="https://www.instagram.com/lorenngames/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href="https://www.youtube.com/@lorenngames" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-primary rounded-circle me-3 copyright-icon" href="https://www.linkedin.com/company/lorengames/" target="_blank"><i class="fab fa-linkedin-in"></i></a>                   
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+        
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary rounded-circle border-3 back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
